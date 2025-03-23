@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBasket</title>
+    <link rel="icon" type="image/x-icon" href="ProjectImages/icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/ac5c0dc01d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">
+                QuickBasket<span class="mainheading"><i class="fa-solid fa-basket-shopping"></i></span>
+            </div>
+            <a href="#" class="toggle-button">
+            <span class="bar"></span> 
+            <span class="bar"></span>   
+            <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="nav-link" href="#categ">Categories</a></li>
+                    <li><a class="nav-link" href="#Pro">Products</a></li>
+                    <li><a class="nav-link" href="#fea">Features</a></li>
+                    <li><a class="nav-link" href="./cart.html"><i class="fa-solid fa-cart-shopping fa-lg"></i></a></li>
+                    <li>
+                        <div class="favIcon">
+                            <i class="fa-solid fa-heart fa-xl"></i>
+                            <div class="favoItem">
+                                <ul class="ulfav">
+                                    <li>No items are added</li>
+                                </ul>
+                                <button type="button" class="favCartbtn">Add to cart</button>
+                                <div class="FavWarning">
+                                    Favorite items cannot be more than five
+                                </div>
+                            </div >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   <div class="banner">
+    <img loading="lazy" src="ProjectImages/product1.jpg" class="bg-1" alt="">
+    <img loading="lazy" src="ProjectImages/product2.jpg" class="bg-2" alt="">   
+    <img loading="lazy" src="ProjectImages/product3.jpg" class="bg-3" alt="">
+    <div class="text">
+        <h3>Fresh farm healthy Products</h3>
+        <h3>For your regular necessities.</h3>
+    </div>
+   </div> 
+  <div class="products">
+        <div class="chgTextheading">
+           <div class="changingText">
+            <div class="box">
+            <span class="chgTxt">Explore Our Products</span>
+            <span class="chgTxt">Multiple Varieties</span>
+            <span class="chgTxt">Directly from local farms</span>
+            <span class="chgTxt">No Delivery Charges</span>
+            <span class="chgTxt">Purchase Now</span>             
+            </div>
+           </div>
+        </div>
+    </div>
+    <div class="items" id="Pro">
+        <div class="item">
+            <img loading="lazy" src="ProjectImages/tomato.jpg" alt="">
+           <div class="item-content">
+               <h1>TOMATOES</h1>
+               <p>Tomatoes are rich in vitamins A, C, and antioxidants, supporting immune health</p>
+               <button type="button" class="cartBtn">Add to cart</button>
+               <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+           </div>
+       </div>
+
+       <div class="item">
+        <img loading="lazy" src="ProjectImages/greencapsicum.jpg" alt="">
+       <div class="item-content">
+           <h1>GREENCAPSICUM</h1>
+           <p>Green capsicum is rich in vitamins A, C, and antioxidants, boosting immunity</p>
+           <button type="button" class="cartBtn">Add to cart</button>
+           <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+       </div>
+   </div>   
+
+   <div class="item">
+    <img loading="lazy" src="ProjectImages/carrots.jpeg" alt="">
+   <div class="item-content">
+       <h1>CARROTS</h1>
+       <p>Carrots are rich in beta-carotene, which supports eye health and promotes healthy skin</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>  
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/pomegranate.jpg" alt="">
+   <div class="item-content">
+       <h1>POMEGRANATE</h1>
+       <p>Pomegranates are rich in antioxidants, boost heart health, improve digestion, and support immunity</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div> 
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/mango.jpg" alt="">
+   <div class="item-content">
+       <h1>MANGO</h1>
+       <p>Mangoes are rich in vitamins A and C, boost immunity, improve digestion</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/strawberry.jpg" alt="">
+   <div class="item-content">
+       <h1>STRAWBERRY</h1>
+       <p>Strawberries are rich in antioxidants, boost immunity, improve heart health, and support skin hydration</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/milk.jpg" alt="">
+   <div class="item-content">
+       <h1>MILK</h1>
+       <p>Milk is rich in calcium and protein, strengthening bones, supporting muscle growth, and boosting overall health</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/swisscheese.jpg" alt="">
+   <div class="item-content">
+       <h1>SWISSCHEESE</h1>
+       <p>Swiss cheese is rich in calcium and protein, supporting strong bones, muscle health, and providing essential vitamins</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/ghee.jpg" alt="">
+   <div class="item-content">
+       <h1>GHEE</h1>
+       <p>Ghee supports digestion, boosts immunity, improves skin health, and provides healthy fats for energy</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+ 
+<div class="item">
+    <img loading="lazy" src="ProjectImages/fullchicken.jpg" alt="">
+   <div class="item-content">
+       <h1>FULLCHICKEN</h1>
+       <p>Chicken is a rich source of high-quality protein, supports muscle growth, boosts immunity, and promotes bone health</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/Salmonfillets.jpg" alt="">
+   <div class="item-content">
+       <h1>SALMONFILLETS</h1>
+       <p>Salmon fillets are rich in omega-3 fatty acids, support heart health, boost brain function, and promote healthy skin</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+
+<div class="item">
+    <img loading="lazy" src="ProjectImages/prawns.jpg" alt="">
+   <div class="item-content">
+       <h1>PRAWNS</h1>
+       <p>Prawns are high in protein, low in fat, and rich in omega-3 fatty acids, supporting heart health and muscle growth</p>
+       <button type="button" class="cartBtn">Add to cart</button>
+       <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+   </div>
+</div>
+</div>
+
+<div class="categories" id="categ">
+ <div class="categoryHead">
+    <div class="cateTxt">Categories</div>
+
+ </div>
+<div class="selectCat">
+   <div class="list">
+      <div class="vegetables">
+        <button type="button" class="vegBtn">Vegetables</button>
+      </div>
+
+      <div class="fruits">
+        <button type="button" class="fruBtn">Fruits</button>
+      </div>
+
+      <div class="dairyProducts">
+        <button type="button" class="dpBtn">DairyProducts</button>
+      </div>
+
+      <div class="Meat">
+        <button type="button" class="meatBtn">Meat</button>
+      </div>
+   </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/watermelon.jpg" alt="">
+    <div class="item-content">
+        <h1>WATERMELON</h1>
+        <p>Watermelon is hydrating, rich in vitamins A and C, and supports heart health</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/raspberries.jpg" alt="">
+    <div class="item-content">
+        <h1>RASPBERRIES</h1>
+        <p>Raspberries are rich in antioxidants, fiber, and vitamins, supporting heart health and digestion</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/tomato.jpg" alt="">
+    <div class="item-content">
+        <h1>TOMATOES</h1>
+        <p>Tomatoes are rich in vitamins, antioxidants, and lycopene, promoting heart health and skin protection</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/potatoes.jpg" alt="">
+    <div class="item-content">
+        <h1>POTATOES</h1>
+        <p>Potatoes are a good source of vitamins, minerals, and energy, supporting digestive health and providing essential nutrients</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/Yogurt.jpg" alt="">
+    <div class="item-content">
+        <h1>YOGURT</h1>
+        <p>Yogurt is rich in probiotics, protein, and calcium, promoting gut health and strengthening bones</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+<div class="item catitem">
+    <img loading="lazy" src="ProjectImages/milkbread.jpg">
+    <div class="item-content">
+        <h1>MILKBREAD</h1>
+        <p>Milk bread is soft, fluffy, and a good source of carbohydrates, providing quick energy</p>
+        <button type="button" class="cartBtn">Add to cart</button>
+        <button type="button" class="favBtn"><i class="fa-solid fa-heart fa-xl"></i></button>
+    </div>
+</div>
+</div>
+<div class="Features" id="fea">
+    <div class="Featuheading">
+        <div class="feautTxt">Our Features</div>
+    </div>
+    <div class="numFeau">
+        <div class="firstFea">
+            <img src="ProjectImages/organic.jpg" alt="">
+            <div class="oragtxt">Fresh and organic Products</div>
+          
+                  
+        </div>
+        <div class=" secoFea">
+            <img src="ProjectImages/delivery.jpg" alt="">
+            <div class="sectxt">Free and Fast Delivery</div>
+            
+        </div>
+        <div class=" thirdFea">
+            <img src="ProjectImages/payment.jpg" alt="">
+            <div class="thirdtxt">Flexible Payment Options</div>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="storeinfo">
+        <div class="infoHead">
+            QuickBasket
+            <span class="mainheading"><i class="fa-solid fa-basket-shopping"></i></span>
+        </div>
+        <div class="infopara">
+            Fresh | Oraganic | Afforable
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/khyathisree-yarra-0a7630278/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+            </div>
+        </div>
+        <div class="createrinfo">
+            Created by Khyathisree Yarra
+        </div>
+
+      </footer>
+<script src="./mainpg.js"></script>
+
+</body>
+</html>
