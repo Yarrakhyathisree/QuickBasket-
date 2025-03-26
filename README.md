@@ -12,9 +12,7 @@ An online grocery store bulid using html,css and javascript
 
 
 ## Live Link
-
-https://quickbasket.netlify.app/
-
+https://voluble-gingersnap-b926a4.netlify.app/
 ## Authors
 
 - [@khyathisree]
